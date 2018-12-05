@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SmartFoxWorkToolsProjectState">
-    <option name="localBranch" value="master" />
-    <option name="revision" value="2d32677643f30c6acb394d1324f6963e630877a4" />
+    <option name="branch" value="note" />
+    <option name="gitUrl" value="https://github.com/lord19871207/My-Reading-Notes.git" />
+    <option name="localBranch" value="note" />
+    <option name="revision" value="94be55356237b24210b40f30b3600ada01d522f5" />
   </component>
 </project>
