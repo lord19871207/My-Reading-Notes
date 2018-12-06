@@ -8,7 +8,8 @@ J(a,b) = (1/2*m) * sum((h(x)-J(a,b))^2 .....)
 ```
 对J(a,b)求最小值
 
-代价函数的直观理解
+平方差代价函数的直观理解
+
 等高图
 等高线图
 
@@ -24,6 +25,26 @@ J(a,b) = (1/2*m) * sum((h(x)-J(a,b))^2 .....)
 
 梯度下降时 相同学习率的情况下 移动幅度会越来越小。
 陡峭的曲线下移动一点点 斜率就会出现很大的变化，而在曲线平稳的地方移动一点，斜率的变化就微乎其微
+
+
+结合平方差代价函数 和 梯度下降 理解 线性回归
+
+
+推导出 代价函数的偏导数
+![4f80108ebbb6707d39b7a6da4d2a7a4e.png](http://youyang321.cn-hangzhou.oss.aliyun-inc.com/machinelearn/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E7%9A%84%E5%81%8F%E5%AF%BC%E6%95%B0.jpg?OSSAccessKeyId=LTAIsFJc1qXg3VGA&Expires=1544079307&Signature=F5zOoBdbueqA5Mdr%2FFOICXISAx4%3D)
+
+
+
+线性回归的偏导数 是 一个凸函数
+只有一个最优解
+
+batch梯度下降和 非batch梯度下降的区别
+是否每次都遍历计算了所有数据
+
+
+直接通过代数 求 代价函数的最小值
+正规方程组方法
+但梯度下降可以用到更大数据量的问题上，而且 更具有通用性
 
 
 
