@@ -31,7 +31,7 @@ J(a,b) = (1/2*m) * sum((h(x)-J(a,b))^2 .....)
 
 
 推导出 代价函数的偏导数
-![4f80108ebbb6707d39b7a6da4d2a7a4e.png](http://youyang321.cn-hangzhou.oss.aliyun-inc.com/machinelearn/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E7%9A%84%E5%81%8F%E5%AF%BC%E6%95%B0.jpg?OSSAccessKeyId=LTAIsFJc1qXg3VGA&Expires=1544079307&Signature=F5zOoBdbueqA5Mdr%2FFOICXISAx4%3D)
+![4f80108ebbb6707d39b7a6da4d2a7a4e.png](http://youyang321.cn-hangzhou.oss.aliyun-inc.com/machinelearn/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E7%9A%84%E5%81%8F%E5%AF%BC%E6%95%B0.jpg?OSSAccessKeyId=LTAIsFJc1qXg3VGA&Expires=1544098229&Signature=5NxEVjANptyLJJNmIta9Z4cAC78%3D)
 
 
 
@@ -45,6 +45,18 @@ batch梯度下降和 非batch梯度下降的区别
 直接通过代数 求 代价函数的最小值
 正规方程组方法
 但梯度下降可以用到更大数据量的问题上，而且 更具有通用性
+
+
+
+联合概率分布：
+多个变量的事件同时发生的概率。
+写为  P(x=A,y=b)
+
+条件概率：
+在事件B 发生时  事件A 发生的概率。这种概率叫做条件概率
+P(x=A|y=B) = P(x=A,y=b)/P(y=B)
+只有在P(y=B)>0 时有意义
+
 
 
 
